@@ -1,0 +1,11 @@
+#Button1 {
+    background-color: rgb(106, 106, 177);
+    border: 2px solid black;
+    border-radius: 3px;
+   }
+
+#Button2 {
+    background-color: rgb(106, 106, 177);
+    border-radius: 3px;
+    border: 2px solid black;
+   }

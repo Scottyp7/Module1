@@ -1,0 +1,47 @@
+
+
+    .title { font-family: sans-serif; }
+*  {
+    box-sizing: border-box;
+    margin: 0;
+   }
+   body {
+    font-family: sans-serif;
+   }
+   header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   }
+
+   nav {
+    float: left;
+    background-color: gold;
+    width:15%;
+    padding: 20px;
+    height: 300px;
+   }
+   article {
+    background-color: whitesmoke;
+    float: left;
+    width: 85%;
+    padding: 20px;
+    height: 300px;
+   }
+   #jumper1 {
+    float: right;
+   }
+   aside {
+    clear: both;
+   }
+   footer {
+    background: #222;
+    color: #eee;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.9em;
+   }
+   button {
+    background-color: rgb(106, 106, 177);
+   }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Clothing Shop!</title>
+    <meta charset="utf-8">
+       <link rel="stylesheet" href="style.css">
+ </head>
+ 
+<body>
+  <header>
+    <h1 id="header1">Clothing Shop</h1></header>
+      <section>
+       <nav id="Navbar">
+         <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">T-Shirts</a></li>
+          <li><a href="#">Jeans</a></li>
+          <li><a href="#">Jumpers</a></li>
+         </ul>
+       </nav>
+ <article>
+   <h2>Check out these new Jumpers!</h2><br>
+     <p>Here you will find a link of your favourite Jumpers!</p>
+       <a href="https://www.google.com/">www.Jumpers.com</a><br>
+       <img id="jumper1" src="Jumper.jpeg" alt= "Jumper">
+ </article>
+
+        <aside id="aside">
+          <h2>Related</h2>
+          <ul>
+            <li><a href="#">This Seasons Fashion</a></li>
+            <li><a href="#">Workwear</a></li>
+          </ul>
+        </aside>
+      </section>
+
+
+ <button onclick="Changeme()">Change Me</button>
+ <span><button onclick="ChangeNav()">Change Nav</button></span>
+
+ <script>
+  function Changeme(){
+   document.getElementById("header1").innerText ='Hello JavaScript';
+   document.getElementById("aside").style.backgroundColor = 'green';
+  }
+
+  function ChangeNav(){
+    document.getElementById("Navbar").style.backgroundColor = 'grey';
+  }
+ </script>
+
+ <form action="actionpage.html" >
+  <label for="FirstName">FirstName</label><br>
+  <input type="text" id="FirstName" name="FirstName" value="Scott"><br>
+  <label for="LastName">FirstName</label><br>
+  <input type="text" id="LastName" name="LastName" value="Parker"><br>
+  <label for="DOB">DOB</label><br>
+  <input type="text" id="DOB" name="DOB" value="DD-MM-YYYY"><br>
+  <input type="submit" value="Submit!">
+
+ </form>
+
+ <footer>
+  <p>@copyright 2050 by nobody. all rightsreversed</p>
+</footer>
+</body>
+</html>
