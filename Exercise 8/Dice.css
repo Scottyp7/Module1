@@ -1,0 +1,31 @@
+h1 {
+    background-color:lavenderblush;
+    text-align: center;
+
+}
+
+body {
+  background-color:rgb(159, 76, 237);
+}
+label {
+    color:lavenderblush
+}
+
+#p1 {
+    color: lavenderblush;
+    font-style:normal;
+    text-decoration: underline;
+    font-size:large;
+}
+#lable1 {
+    margin-left: 62px;
+
+}
+#random {
+    border: 2px solid lavenderblush;
+    box-sizing: border-box;
+    text-align: center;
+}
+#button1 {
+    margin-left: 55px;
+}
