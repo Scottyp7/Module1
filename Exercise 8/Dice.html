@@ -7,16 +7,18 @@
 
 <link rel="stylesheet" href="Dice.css">
 
-<h1>Table Top Games by devsInc</h1>
+<h1>Roll The Dice! by devsInc</h1>
 
 <strong><p id="p1">Use the below function to generate a random number!</p1></strong>
 <body>
-    <form action="actionpage.html"></form>
-    <label for="Roll">Select Number of Faces To Roll</label><br>
-    <span><label id="lable1" for="box6">6</label><input id="box6" type="radio" name="rand" value="6">
-          <label for="box10">10</label><input id="box10" type="radio" name="rand" value="10"><br>
-          <button id="button1" onclick="calc()">Click Here!</button>
-    </span>
+    <div id="div1">
+        <form action="actionpage.html"></form>
+        <label id="pagehead" for="Roll">Select Number of Faces</label><br>
+        <span>  <label id="lable1" for="box6">6</label><input id="box6" type="radio" name="rand" value="6">
+                <label for="box10">10</label><input id="box10" type="radio" name="rand" value="10"><br>
+                <button id="button1" onclick="calc()">Click Here!</button>
+        </span>
+    </div>
     <br>
     <br>
     <label id="random">Your Number Will Display Here</label>

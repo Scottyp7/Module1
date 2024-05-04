@@ -1,23 +1,23 @@
 function multiply(a, b)//Declares a function
 { 
+console.log(a * b) //part of the function to tell print the result on the console. must be above return
+return a * b // returns a value before its printed into the console.
 
-console.log(a * b) //part of the function to tell it what calculation to do
 }
 
 function add(a, b)//Declares a function
 { 
 return a + b
 }
-   
 function minus(a, b)//Declares a function
 { 
-
+    return a - b
 console.log(a - b) //part of the function to tell it what calculation to do
 }
 
 function divide(a, b)//Declares a function
 { 
-
+    return a / b
 console.log(a / b) //part of the function to tell it what calculation to do
 }
 console.log(add(7,9)) 

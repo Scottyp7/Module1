@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math page</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="Math.css">
+    <h1>Math Page</h1>
+
+    <p>Enter Values in the boxes then press submit</p>
+
+<link rel="stylesheet" href="Buttons.css">
+
+    <form action="actionpage.html" >
+        <label for="Value1">First Value</label><br>
+        <input type="number" id="Value1" name="Value1" value=""><br>
+        <br>
+        <label for="Multiple">Multiple:</label>
+          <select name="Multiple" id="Multiple">
+            <option id="plus" value="+">+</option>
+            <option id="sub" value="-">-</option>
+            <option id="times" value="*">*</option>
+            <option id="divide" value="/">/</option>
+          </select><br>
+          <br>
+        <label for="Value2">Second Value</label><br>
+        <input type="number" id="Value2" name="Value2" value=""><br>
+        <br>
+        <input type="button" id="Button1" value="calculate" onclick= "calculate()"><br>
+        <label id="result"></label>
+
+
+</body>
+<script src="./Module1/Exercise 4/calculations.js"></script>
+<script>
+    function calculate()
+{
+    let Value1 = document.getElementById("Value1").valueAsNumber;
+    let Value2 = document.getElementById("Value2").valueAsNumber;
+  
+   document.getElementById("result").innerText=result
+
+let index = document.getElementById("Multiple").selectedIndex
+if(index == 0)
+{
+    document.getElementById("result").innerText = add(Value1, Value2)
+}
+if(index == 1)
+{
+    document.getElementById("result").innerText = minus(Value1, Value2)
+}
+if(index == 2)
+{
+    document.getElementById("result").innerText = multiply(Value1, Value2)
+}
+if(index == 3)
+{
+    document.getElementById("result").innerText = divide(Value1, Value2)
+}
+
+}
+function calc(values){
+ const input1 = document.getElementById("Value1").valueAsNumber
+ const input2 = document.getElementById("Multiple").value
+ const input3 = document.getElementById("Value2").valueAsNumber
+
+
+ 
+console.log(input1 + input3)
+ }
+
+</script>
+</html>

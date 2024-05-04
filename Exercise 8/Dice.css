@@ -1,24 +1,33 @@
 h1 {
-    background-color:lavenderblush;
+    background-color:rgb(226, 223, 224);
     text-align: center;
 
 }
 
 body {
-  background-color:rgb(159, 76, 237);
-}
-label {
-    color:lavenderblush
+  background-color:rgb(255, 255, 255);
 }
 
+
 #p1 {
-    color: lavenderblush;
+    color: rgb(2, 2, 2);
     font-style:normal;
     text-decoration: underline;
     font-size:large;
 }
+#div1 { border: 3px solid black;
+    background-color: rgb(233, 233, 233); 
+    width: 13.5%;
+
+
+}
+
+#pagehead {
+    margin-left: 5%;
+  
+}
 #lable1 {
-    margin-left: 62px;
+    margin-left: 55px;
 
 }
 #random {
@@ -27,5 +36,5 @@ label {
     text-align: center;
 }
 #button1 {
-    margin-left: 55px;
+    margin-left: 45px;
 }
