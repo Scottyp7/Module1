@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bankstyle.css">
+</head>
+<body>
+    <h1>The Bank Society</h1>
+      <div>
+        <Label for="Firstname">First Name</Label>
+        <input ID="Firstname" type="text" name="Firstname" value="Jake">
+
+        <Label for="Lastname">Last Name</Label>
+        <input type="text" ID="Lastname" name="Lastname" value="Smith">
+
+        <Label for="Balance">Account Balance ($)</Label>
+        <input type="number" ID="Balance" name="Balance" value="100">
+        <br>
+        <br>
+
+
+        <label for="Deposit">Deposit Amount ($):</label>
+        <input type="number" id="depositam" name="Deposit" value="">
+        <input type="button" id="Button1" value="Click to Deposit:" onclick= "Deposit()"><br>
+        <label for="Deposit">Withdraw Amount ($):</label>
+        <input type="number" id="withdrawam" name="Withdraw" value="">
+        <input type="button" id="Button2" value="Click to Withdraw:" onclick= "Withdraw()"><br>
+
+      </div>  
+</body>
+
+<script>
+
+function Deposit(){
+  const a = document.getElementById("Balance").valueAsNumber
+  const b = document.getElementById("depositam").valueAsNumber
+  document.getElementById("Balance").value = a + b 
+}
+
+function Withdraw(){
+  const a = document.getElementById("Balance").valueAsNumber
+  const c = document.getElementById("withdrawam").valueAsNumber
+  const newbalance = a - c
+  if(newbalance >= 0) {document.getElementById("Balance").value = newbalance}
+  else {alert("Balance cannot be less then $0")}
+}
+
+</script>
+
+
+<footer>All Rights Reserved 2024 - The Bank Society</footer>
+
+</html>

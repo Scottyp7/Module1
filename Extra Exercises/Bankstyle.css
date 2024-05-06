@@ -1,0 +1,42 @@
+h1 {
+    background-color: black;
+    color: gold;
+    font-size:larger;
+    padding-left: 3%;
+    text-align: center;
+    
+   }
+   footer {
+    background: #000000;
+    color: #b63030;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-size: 100%; 
+    }
+
+.currency::before{content:'$';
+}
+
+
+body{
+    background-color: rgb(255, 233, 113);
+}
+
+#withdrawam {
+
+}
+
+#depositam {
+
+}
+
+#button1 {
+    width: 110px;
+}
+#button2 {
+    width: 110px;
+}

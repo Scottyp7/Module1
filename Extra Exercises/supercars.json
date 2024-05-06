@@ -1,0 +1,80 @@
+{ 
+"Dealership": [
+    {
+        "Cars": [
+            {
+                "Model_Name": "Model Y",
+                "ManufactureName": "Tesla",
+                "Model_Year": 2019,
+                "Price": 50000
+            },
+            {
+                "Model_Name": "Model X",
+                "ManufactureName": "Tesla",
+                "Model_Year": 2018,
+                "Price": 52000
+            },
+            {
+                "Model_Name": "Model X",
+                "ManufactureName": "Tesla",
+                "Model_Year": 2018,
+                "Price": 52000
+            }
+                        
+            ], 
+            
+            "Employees": [
+            {  
+                "Salary": 1200, 
+                "Name": "Scott",
+                "Job_Title": "Manager"   
+            },
+            {
+                "Salary": 1000, 
+                "Name": "Jordan",
+                "Job_Title": "Sles Rep" 
+            }
+            
+            ] 
+    },     
+    {
+        "Cars2": [
+            {
+                "Model_Name": "Model V",
+                "ManufactureName": "Tesla",
+                "Model_Year": 2020,
+                "Price": 50000
+            },
+            {
+                "Model_Name": "Model P",
+                "ManufactureName": "Tesla",
+                "Model_Year": 2016,
+                "Price": 52000
+            },
+            {
+                "Model_Name": "Model U",
+                "ManufactureName": "Tesla",
+                "Model_Year": 2017,
+                "Price": 52000
+            }
+                        
+            ], 
+            
+            "Employees2": [
+            {  
+                "Salary": 1200, 
+                "Name": "Jake",
+                "Job_Title": "Manager"   
+            },
+            {
+                "Salary": 1000, 
+                "Name": "John",
+                "Job_Title": "Sles Rep" 
+            }
+            
+            ] 
+    }     
+
+    ]
+}
+
